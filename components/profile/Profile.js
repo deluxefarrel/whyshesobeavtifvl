@@ -30,7 +30,7 @@ export default function Profile() {
         <img className="mt-14" src="/CN_Bullet.svg" />
         <div id="link-game-social-media" className="w-96 mt-40">
           <h2 className="text-white text-3xl font-bold font-sec mt-20">
-            Link to play DreadOut
+            Link to play <span className="block">DreadOut</span>
           </h2>
         </div>
         <p className="mt-5 flex items-center">
@@ -114,7 +114,7 @@ export default function Profile() {
               @dreadoutmovie
             </a>
           </div>
-          <img cl className="mt-20" src="/CN_Bullet.svg" />
+          <img cl className="mt-14" src="/CN_Bullet.svg" />
         </div>
       </div>
     </div>
