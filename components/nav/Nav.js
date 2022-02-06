@@ -3,8 +3,8 @@ import React, { useState } from "react";
 export default function Nav() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="fix">
-      <div className=" flex flex-col lg:flex-row relative w-full z-50 text-white">
+    <div className="">
+      <div className=" flex flex-col lg:flex-row relative w-full z-50 text-white p-5">
         <div className="flex items-center justify-between px-4 py-4 lg:py-0">
           <div>
             <a href="#" className="text-amber-100 font-semibold uppercase">

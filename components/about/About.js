@@ -12,12 +12,11 @@ export default function About() {
     <div className="container mx-auto">
       <div
         id="about-this-website"
-        className="p-6 mt-20"
+        className="p-6 mt-15"
         style={{ transform: `translateY(${offSetY * 0.1}px)` }}
       >
         <h1 className="text-3xl md:text-4xl lg:text-5xl  font-bold font-sec tracking-wide text-white ">
-          <span className="border-b-4">Thanks</span> for visited to my website
-          hun
+          Thanks for visited to my website hun
           <span className="block mt-7 lg:mt-10">-bot(farrel)</span>
         </h1>
         <img className="mt-14" src="CN_Bullet.svg" alt="" />

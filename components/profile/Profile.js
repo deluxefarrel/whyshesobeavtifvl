@@ -13,7 +13,7 @@ export default function Profile() {
       style={{ transform: `translateY(${offSetY * 0.1}px)` }}
     >
       <div className="p-6">
-        <h2 className="text-4xl text-white font-sec font-bold border-b-4 w-96">
+        <h2 className="text-4xl text-white font-sec font-bold w-96">
           About this website
         </h2>
         <p
@@ -28,7 +28,7 @@ export default function Profile() {
           <img className="inline-block" src="/Rectangle.svg" />
         </p>
         <img className="mt-14" src="/CN_Bullet.svg" />
-        <div id="link-game-social-media" className="border-b-4 w-96 mt-40">
+        <div id="link-game-social-media" className="w-96 mt-40">
           <h2 className="text-white text-3xl font-bold font-sec mt-20">
             Link to play DreadOut
           </h2>
@@ -41,7 +41,7 @@ export default function Profile() {
             target={"_blank"}
             href="https://store.steampowered.com/app/418950/DreadOut_Keepers_of_The_Dark/?curator_clanid=33371531"
           >
-            DreadOut: Keepers of The Dark (click)
+            DreadOut: Keepers of The Dark
           </a>
         </p>
         <p className="mt-5 flex items-center">
@@ -52,7 +52,7 @@ export default function Profile() {
             target={"_blank"}
             href="https://store.steampowered.com/app/269790/DreadOut/"
           >
-            DreadOut (click)
+            DreadOut
           </a>
         </p>
         <p className="mt-5 flex items-center">
@@ -63,7 +63,7 @@ export default function Profile() {
             target={"_blank"}
             href="https://store.steampowered.com/app/945710/DreadOut_2/"
           >
-            DreadOut2 (click)
+            DreadOut2
           </a>
         </p>
         <p className="mt-5 flex items-center">
@@ -74,7 +74,7 @@ export default function Profile() {
             target={"_blank"}
             href="https://store.steampowered.com/app/692930/DreadEye_VR/?curator_clanid=33371531"
           >
-            DreadEye VR (click)
+            DreadEye VR
           </a>
         </p>
         <div className=" w-96 ml-6 ">
@@ -89,7 +89,7 @@ export default function Profile() {
               className="ml-3 text-white font-sec hover:bg-white hover:text-black"
               href="https://www.instagram.com/digitalhappinessofficial/"
             >
-              @digitalhappinessofficial (click)
+              @digitalhappinessofficial
             </a>
           </div>
           <div className="mt-3">
@@ -100,18 +100,18 @@ export default function Profile() {
               className="ml-3 text-white font-sec hover:bg-white hover:text-black"
               href="https://www.instagram.com/dreadoutgame/"
             >
-              @dreadoutgame (click)
+              @dreadoutgame
             </a>
           </div>
           <div className="mt-3">
             <img className="w-10 h-10 inline-block" src="/instagram.jpg" />
             <a
               rel="noreferrer"
-              target={"_blank"}
+              target="_blank"
               className="ml-3 text-white font-sec hover:bg-white hover:text-black"
               href="https://www.instagram.com/dreadoutmovie/"
             >
-              @dreadoutmovie (click)
+              @dreadoutmovie
             </a>
           </div>
           <img cl className="mt-20" src="/CN_Bullet.svg" />

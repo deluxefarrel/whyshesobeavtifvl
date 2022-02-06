@@ -13,7 +13,7 @@ export default function Contact() {
       style={{ transform: `translateY(${offSetY * 0.1}px)` }}
     >
       <div id="contact-me" className="mt-15">
-        <h2 className="text-white border-b-4 w-56 text-4xl font-bold font-sec mb-10">
+        <h2 className="text-white text-4xl font-bold font-sec mb-10">
           Contact Me
         </h2>
         <img
@@ -25,7 +25,7 @@ export default function Contact() {
           href="mailto:deluxefarrel999@gmail.com"
           rel="noreferrer"
         >
-          (deluxefarrel999@gmail.com) (click)
+          (deluxefarrel999@gmail.com)
         </a>
         <div className="mt-5 flex items-center">
           <img className="w-10 h-10 inline-block" src="/instagram.jpg" />{" "}
@@ -35,10 +35,10 @@ export default function Contact() {
             rel="noreferrer"
             href="https://www.instagram.com/farreljanuarr/"
           >
-            @farreljanuarr (click)
+            @farreljanuarr
           </a>
         </div>
-        <img className="mt-14 mb-10" src="/triangle.svg" alt="" />
+        <img className="mt-14 mb-32" src="/triangle.svg" alt="" />
       </div>
     </div>
   );
