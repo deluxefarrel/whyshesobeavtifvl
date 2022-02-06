@@ -40,6 +40,12 @@ export default function Nav() {
         >
           <div className="flex flex-col lg:flex-row">
             <a
+              href="#read-me"
+              className="block text-amber-100 uppercase px-5 py-5 hover:text-white text-sm"
+            >
+              Read me
+            </a>
+            <a
               href="#about-this-website"
               className="block text-amber-100 uppercase px-5 py-5 hover:text-white text-sm"
             >

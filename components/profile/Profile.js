@@ -12,7 +12,7 @@ export default function Profile() {
       className="container mx-auto mt-20 flex flex-col"
       style={{ transform: `translateY(${offSetY * 0.1}px)` }}
     >
-      <div className="p-6">
+      <div id="about-this-website" className="p-6">
         <h2 className="text-4xl text-white font-sec font-bold w-96">
           About this website
         </h2>

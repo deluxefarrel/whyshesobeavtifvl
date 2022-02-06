@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="container mx-auto">
       <div
-        id="about-this-website"
+        id="read-me"
         className="p-6 mt-15"
         style={{ transform: `translateY(${offSetY * 0.1}px)` }}
       >
