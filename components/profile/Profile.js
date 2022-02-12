@@ -13,7 +13,7 @@ export default function Profile() {
       style={{ transform: `translateY(${offSetY * 0.1}px)` }}
     >
       <div id="about-this-website" className="p-6">
-        <h2 className="text-4xl text-white font-sec font-bold w-96">
+        <h2 className="text-2xl lg:text-4xl text-white font-sec font-bold w-96">
           About this website
         </h2>
         <p
@@ -29,7 +29,7 @@ export default function Profile() {
         </p>
         <img className="mt-14" src="/CN_Bullet.svg" />
         <div id="link-game-social-media" className="w-96 mt-40">
-          <h2 className="text-white text-3xl font-bold font-sec mt-20">
+          <h2 className="text-white text-2xl lg:text-3xl font-bold font-sec mt-20">
             Link to play <span className="block">DreadOut</span>
           </h2>
         </div>
@@ -86,7 +86,7 @@ export default function Profile() {
             <a
               rel="noreferrer"
               target={"_blank"}
-              className="ml-3 text-white font-sec hover:bg-white hover:text-black"
+              className="ml-3 text-white font-sec hover:bg-white text-sm hover:text-black"
               href="https://www.instagram.com/digitalhappinessofficial/"
             >
               @digitalhappinessofficial

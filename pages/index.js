@@ -8,7 +8,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="">
       <Head>
         <meta
           name="viewport"

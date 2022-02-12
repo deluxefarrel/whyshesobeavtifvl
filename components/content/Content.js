@@ -13,7 +13,7 @@ export default function Content() {
       <div className="flex items-center justify-center mt-8 min-h-screen relative">
         <Image
           className="__background"
-          src="/background.jpg"
+          src="/background2.jpg"
           layout="fill"
           alt="Linda"
         />
