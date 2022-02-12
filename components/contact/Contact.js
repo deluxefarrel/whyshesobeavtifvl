@@ -21,7 +21,7 @@ export default function Contact() {
           src="https://cdn.cdnlogo.com/logos/g/24/gmail-icon.svg"
         />
         <a
-          className="ml-3 text-white font-sec text-sm hover:bg-white hover:text-black"
+          className="ml-3 text-white font-sec text-xs hover:bg-white hover:text-black"
           href="mailto:deluxefarrel999@gmail.com"
           rel="noreferrer"
         >
