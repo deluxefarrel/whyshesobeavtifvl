@@ -15,7 +15,7 @@ export default function About() {
         className="p-6 mt-15"
         style={{ transform: `translateY(${offSetY * 0.1}px)` }}
       >
-        <h1 className="text-3xl md:text-4xl lg:text-5xl  font-bold font-sec tracking-wide text-white ">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl  font-bold font-sec tracking-wide text-[#d8caaa] ">
           Thanks for visited to my website
           <span className="block mt-7 lg:mt-10">-bot</span>
         </h1>

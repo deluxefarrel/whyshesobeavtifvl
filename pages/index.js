@@ -8,7 +8,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-black ">
       <Head>
         <meta
           name="viewport"
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <Nav />
       <Content />
-      <About />
+
       <Profile />
       <Contact />
       <Footer />
