@@ -11,9 +11,9 @@ export default function Profile() {
       <div className="container mx-auto flex flex-col">
          <div
             id="about-this-website"
-            className="p-6 w-full relative -top-11 sm:-top-12 md:-top-10"
+            className="p-6 w-full relative -top-28  md:-top-10 "
          >
-            <h2 className="text-2xl lg:text-4xl text-amber-100  font-sec relative  text-center w-full font-bold ">
+            <h2 className="text-2xl lg:text-4xl text-amber-100  font-sec relative text-center w-full font-bold ">
                About this website
             </h2>
             <p
