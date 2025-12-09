@@ -17,6 +17,7 @@ export default function Home() {
             <title>whyshesobeavtifvl</title>
          </Head>
          <div className="overflow-x-hidden">
+            {/*Nav */}
             <Nav />
             <Content />
 
