@@ -9,7 +9,7 @@ export default function Contact() {
    }, []);
    return (
       <div
-         className="container mx-auto p-6 mt-20 flex"
+         className="container mx-auto p-6  flex"
          style={{ transform: `translateY(${offSetY * 0.1}px)` }}
       >
          <div id="contact-me" className="mt-15">
